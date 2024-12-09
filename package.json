@@ -12,10 +12,16 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "vscodegamify.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "vscodegamify.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "vscodegamify.showStats",
+        "title": "Show Stats"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
